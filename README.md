@@ -38,7 +38,7 @@ Sejumlah hasil menarik dari EDA:
 
 ## Antar Muka Aplikasi Web
 
-Aplikasi web dibangun menggunakan Streamlit dan di-deploy menggunakan Heroku.
+Aplikasi web dibangun menggunakan Streamlit dan di-deploy menggunakan Heroku. Aplikasinya dapat diakses di [sini](https://gaji-ilmuwan-data.herokuapp.com/)
 
 ![DSS1](/images/DSStreamlit1.png)
 
