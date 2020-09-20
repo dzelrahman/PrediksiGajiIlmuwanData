@@ -47,7 +47,7 @@ def number_simplifier(role):
     elif role == "sw":
         return 9
 
-job_type_num = number_simplifier(job_type_num)
+job_type_num1 = number_simplifier(job_type_num)
 
 
 def senior_simplifier(title):
@@ -82,8 +82,8 @@ algo_req = st.radio("Pengetahuan Algoritma (0 untuk Tidak, 1 untuk Iya)", option
 stats_req = st.radio("Pengetahuan Statistik (0 untuk Tidak, 1 untuk Iya)", options=[0,1])
 
 features = [rating, jobhq, age, num_comp, python_req, r_req, aws_req,spark_req,hadoop_req,docker_req,
-            sql_req,linux_req,flask_req,django_req,tensorflow_req,keras_req,python_req,tableau_req,algo_req,
-            stats_req]
+            sql_req,linux_req,flask_req,django_req,tensorflow_req,keras_req,pytorch_req,tableau_req,algo_req,
+            stats_req, job_type_num1, seniority_num1, len_desc]
 
 final_features = np.array(features).reshape(1,-1)
 
